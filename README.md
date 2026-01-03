@@ -64,3 +64,32 @@ Users are strongly advised to consult qualified healthcare professionals for any
 
 - Initial README documentation completed
 - Model development, evaluation, and explanation modules will be added in subsequent commits
+
+---
+
+# Dataset
+
+This project uses publicly available healthcare datasets:
+
+- "Disease and Symptoms Dataset (Kaggle)"  
+  Used to train the machine learning model for predicting diseases based on reported symptoms.
+
+- "Disease Precautions Dataset (Kaggle)"  
+  Used to provide precautionary recommendations for the predicted diseases.
+
+These datasets are open-source and intended for educational and research use.
+
+
+# Model Evaluation
+
+- The dataset was split into training and testing sets using an 80/20 ratio.
+- A Random Forest classifier was used for multi-class disease prediction.
+- The system generates "Top-3 disease predictions" with confidence scores instead of a single label.
+- This approach supports safer and more informative decision support.
+
+# Limitations
+
+- The model is trained on a fixed dataset and may not generalize to all real-world cases.
+- Multiple diseases can share similar symptoms, which may affect confidence scores.
+- This system is intended for "educational purposes only" and does not provide medical diagnoses.
+
