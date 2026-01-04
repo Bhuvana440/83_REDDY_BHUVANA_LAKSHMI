@@ -93,3 +93,7 @@ These datasets are open-source and intended for educational and research use.
 - Multiple diseases can share similar symptoms, which may affect confidence scores.
 - This system is intended for "educational purposes only" and does not provide medical diagnoses.
 
+# How to Run the Application
+
+pip install -r requirements.txt
+streamlit run app.py
