@@ -95,5 +95,6 @@ These datasets are open-source and intended for educational and research use.
 
 # How to Run the Application
 
-pip install -r requirements.txt
-streamlit run app.py
+1.pip install -r requirements.txt
+
+2.streamlit run app.py
