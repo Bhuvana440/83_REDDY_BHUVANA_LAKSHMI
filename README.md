@@ -12,7 +12,7 @@ The key objectives of this project are:
 - To accept a list of symptoms provided by the user
 - To predict the "top three most likely diseases or conditions"
 - To generate "clear, human-readable explanations" for each prediction using a Large Language Model (LLM)
-- To ensure ethical usage through medical disclaimers and guardrails
+
 
 # Solution Overview
 
